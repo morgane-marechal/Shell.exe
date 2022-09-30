@@ -1,0 +1,10 @@
+#!/bin/bash
+count=0
+writing="Je suis un script qui arrive à faire une boucle $count"
+
+
+while [ $count -lt 10 ]
+do
+echo $writing
+a=$((amazingcount + 1))
+done
